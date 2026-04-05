@@ -92,3 +92,7 @@ plugins/LevelSaver/
 ├── config.yml   — налаштування предметів та повідомлень
 └── data.yml     — збережені рівні гравців (не редагувати вручну)
 ```
+
+<img width="796" height="319" alt="1" src="https://github.com/user-attachments/assets/45af3c6b-1a5a-4b80-bd9c-02fd973608cb" />
+<img width="812" height="331" alt="2" src="https://github.com/user-attachments/assets/fc12a684-86dc-4d4a-ba01-0a0ca1051cc3" />
+<img width="630" height="274" alt="3" src="https://github.com/user-attachments/assets/6e33c468-cd91-4a86-8288-6bbdc304d8c2" />
