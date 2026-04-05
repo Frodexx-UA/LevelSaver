@@ -1,0 +1,47 @@
+level_book:
+  material: ENCHANTED_BOOK
+  name: "&6Рівнезберігач"
+  lore:
+    - "&7Зберігай свій досвід"
+    - ""
+    - "&fЗбережено: &a%levels% lvl"
+    - ""
+    - "&aЛКМ &7- зняти все"
+    - "&aSHIFT+ЛКМ &7- обрати рівень для зняття"
+    - "&aПКМ &7- покласти все"
+    - "&aSHIFT+ПКМ &7- обрати рівень для вкладення"
+
+withdraw_level:
+  material: PAPER
+  name: "&eБанкнота Досвіду"
+  lore:
+    - "&7Містить в собі рівні досвіду"
+    - ""
+    - "&fВласник: &a%owner%"
+    - "&fЗбережено: &a%levels% lvl"
+    - ""
+    - "&aПКМ &7- отримати досвід"
+
+messages:
+  no-permission: "&cУ тебе немає прав на цю команду!"
+  player-only: "&cЦю команду може використовувати тільки гравець!"
+  player-not-found: "&cГравця не знайдено!"
+  book-given: "&aКнигу Рівнезберігач успішно видано гравцю &f%player%&a."
+  reload-success: "&aПлагін LevelSaver успішно перезавантажено!"
+  not-holding-book: "&cТримай Рівнезберігач у головній руці!"
+  invalid-number: "&cВведи правильне число!"
+  amount-too-low: "&cКількість має бути більше 0!"
+  not-enough-levels-in-book: "&cУ книзі недостатньо рівнів! Доступно: &f%stored%"
+  not-enough-player-levels: "&cУ тебе тільки &f%player_levels% &cрівнів!"
+  withdraw-success: "&aВидобуто банкноту на &f%amount% &aрівнів!"
+  deposit-all-success: "&aПокладено &f%amount% &aрівнів у Рівнезберігач"
+  withdraw-all-success: "&aЗнято &f%amount% &aрівнів з Рівнезберігача"
+  chat-withdraw-prompt: "&eВведіть кількість рівнів для §aзняття§e:"
+  chat-deposit-prompt: "&eВведіть кількість рівнів для §aвкладення§e:"
+  chat-cancelled: "&cОперацію скасовано."
+  received-levels: "&aВи отримали &f%levels% &aрівнів досвіду з банкноти!"
+
+  help:
+    levelbook: "&cВикористання: &f/levelbook [гравець]"
+    lsreload: "&cВикористання: &f/lsreload"
+    withdrawlevel: "&cВикористання: &f/withdrawlevel <кількість>"
